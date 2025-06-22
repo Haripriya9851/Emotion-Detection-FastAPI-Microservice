@@ -9,4 +9,12 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Models directory
-models/ 
+models/
+
+# Ignore large files
+*.docx
+*.pdf
+
+# Ignore large files
+*.docx
+*.pdf 
