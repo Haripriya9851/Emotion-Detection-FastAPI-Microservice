@@ -68,4 +68,33 @@ else:
     print(f"Error: {response.status_code} - {response.text}")
 ```
 
+---
+
+## How to Train the Model (`train.py`)
+
+1. **Set up your Python environment:**
+   - (Recommended) Create and activate a virtual environment:
+     ```bash
+     python3 -m venv eai6010_env
+     source eai6010_env/bin/activate
+     ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the training script:**
+   ```bash
+   python train.py
+   ```
+   This will train the model and export it as `emotion_classifier.pkl` in your project directory.
+
+4. **Start the FastAPI service:**
+   ```bash
+   uvicorn app:app --reload
+   ```
+
+If you encounter any errors about missing modules (e.g., `ModuleNotFoundError: No module named 'fastai'`), make sure you have activated your virtual environment and installed all dependencies.
+
 # Test

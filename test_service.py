@@ -32,10 +32,10 @@ def test_service():
     # Test prediction
     print("\nTesting prediction...")
     test_texts = [
-        "I am so happy today!",
-        "This makes me very angry.",
-        "I feel sad about this news.",
-        "I love this movie so much!"
+        "I am so pumped up!",
+        "This boils my blood!",
+        "I feel disappointed about this news.",
+        "I love that this movie ended soon!"
     ]
     
     for text in test_texts:
