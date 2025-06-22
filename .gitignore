@@ -1,0 +1,12 @@
+# Virtual environment
+eai6010_env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Models directory
+models/ 
